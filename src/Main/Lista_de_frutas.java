@@ -72,14 +72,15 @@ arreglo1 =new int[4];
 */
 		
 		//para recorrer el Array con foo-each:
-		
+		/*
 		for (String elem : arregloCadena) {//aqui solo da el valor string es decir el nombre creo
 			System.out.println("El elemento es : "+elem);}
 		//usando el for por indece. 
 			for (int i=0; i < arreglo1.length; i++) {
 				System.out.println("El número en el índice es: "+arreglo1[i]);}
 			System.out.println("");
-			
+			*/
+		
 			/*
 			//si anidamos el arreglo 1 dentro del arregloCadena multiplica el valor del String por el tamaño del int del areglo 1.
 			for (String elem : arregloCadena) {//aqui solo da el valor string es decir el nombre creo
@@ -87,7 +88,11 @@ arreglo1 =new int[4];
 
 					System.out.println("El elemento es : "+elem + arreglo1[i]);}
 			*/
-		
+			//print de la relacion de ambos arreglos: 
+			for (int i = 0; i < arregloCadena.length; i++) {
+				System.out.println("La fruta con el índice "+i+" es:" + arregloCadena[i]);
+				}
+
 	
 	
 	}

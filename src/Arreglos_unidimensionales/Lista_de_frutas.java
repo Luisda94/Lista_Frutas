@@ -1,4 +1,4 @@
-package Main;
+package Arreglos_unidimensionales;
 
 import java.util.Arrays;
 

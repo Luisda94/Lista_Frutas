@@ -19,6 +19,14 @@ public class arreglos_bidimensionales {
 		arregloBidimensional [0][2] =3 ;
 		arregloBidimensional [1][1] =4 ;
 		arregloBidimensional [1][2] = 5;
+		//Dato tanto la fila como la columna parten en el indice 0
+		
+		//se comienza a hacer el recorrido con for
+		
+		for (int I=0;I<arregloBidimensional.length; I++) {
+			System.out.println(arregloBidimensional[0][I]);
+		}
+		
 		
 	}
 

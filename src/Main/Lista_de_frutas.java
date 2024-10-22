@@ -41,6 +41,8 @@ arreglo1 =new int[4];
 		arregloCadena [3]="Durazno";
 		arregloCadena [4]="Melon";
 		arregloCadena [5]="Sandia";
+		//Arriba no mas guardamos los datos de los Arrays
+		
 		
 }
 }

@@ -5,11 +5,14 @@ import java.util.Arrays;
 public class Lista_de_frutas {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-/*Este proyecto es para saber como a hacer areglos usaremos el ejemplo de realizar una lista de frtas*
- */
+	
 		/*¿QUE ES UN ARREGLO? = Es un conjuto de datos del mismo tipo.
 		 * estos datos se guardan de forma lineal*/
+		
+		/*  datazo lo util de esto que evitas declarar multiples variables.
+		 * Este proyecto es para saber como a hacer areglos usaremos el ejemplo de realizar una lista de frtas*
+ */
+		
 		/*int[] arreglo1;
 arreglo1 =new int[4];
 */
@@ -48,6 +51,8 @@ arreglo1 =new int[4];
 		System.out.println(Arrays.toString(arreglo1));
 		System.out.println(Arrays.toString(arregloCadena));
 
+		//para saber el tamaño del areglo se usa lo siguiente : length.
+		System.out.println(arreglo1.length);
 		
 }
 }

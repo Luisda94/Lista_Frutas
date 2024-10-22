@@ -1,5 +1,7 @@
 package Main;
 
+import java.util.Arrays;
+
 public class Lista_de_frutas {
 
 	public static void main(String[] args) {
@@ -21,7 +23,7 @@ arreglo1 =new int[4];
 */
 		//acaba abajo de forma explicita declaramos dos areglos uno int y otro String
 		//areglo int
-		int arreglo2[]= {1,3,5,8,9,15}; //forma 2 se asigna el valor directo hunto el tamaño.
+		int arreglo1[]= {1,3,5,8,9,15}; //forma 2 se asigna el valor directo hunto el tamaño.
 /* Si fuera de la forma 1 deberia ser declarado asi
 		arreglo [0] =1;
 		arreglo [1] =3;
@@ -43,6 +45,9 @@ arreglo1 =new int[4];
 		arregloCadena [5]="Sandia";
 		//Arriba no mas guardamos los datos de los Arrays
 		
+		System.out.println(Arrays.toString(arreglo1));
+		System.out.println(Arrays.toString(arregloCadena));
+
 		
 }
 }

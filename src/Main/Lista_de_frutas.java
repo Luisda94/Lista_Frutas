@@ -78,7 +78,15 @@ arreglo1 =new int[4];
 		//usando el for por indece. 
 			for (int i=0; i < arreglo1.length; i++) {
 				System.out.println("El número en el índice es: "+arreglo1[i]);}
-		
+			System.out.println("");
+			
+			/*
+			//si anidamos el arreglo 1 dentro del arregloCadena multiplica el valor del String por el tamaño del int del areglo 1.
+			for (String elem : arregloCadena) {//aqui solo da el valor string es decir el nombre creo
+				for (int i=0; i < arreglo1.length; i++)
+
+					System.out.println("El elemento es : "+elem + arreglo1[i]);}
+			*/
 		
 	
 	

@@ -52,14 +52,14 @@ public class arreglos_bidimensionales {
             };
             
             // Recorrer solo hasta la fila 1.
-            for (int i = 0; i <= 1; i++) { // Cambia el límite superior para incluir solo hasta la fila 1
+            for (int i = 0; i <= matriz.length; i++) { // Cambia el límite superior para incluir solo hasta la fila 1
                 for (int j = 0; j < matriz[i].length; j++) {
                     System.out.print(matriz[i][j] + " ");
                 }
-                System.out.println(); // Nueva línea después de cada fila
+            }
+                
 
-		
-	}
+
 
 }
 }

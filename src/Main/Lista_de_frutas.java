@@ -89,7 +89,8 @@ arreglo1 =new int[4];
 					System.out.println("El elemento es : "+elem + arreglo1[i]);}
 			*/
 			//print de la relacion de ambos arreglos: 
-			for (int i = 0; i < arregloCadena.length; i++) {
+			//si colocamos 
+			for (int i = 4; i < arregloCadena.length; i++) {
 				System.out.println("La fruta con el índice "+i+" es:" + arregloCadena[i]);
 				}
 

@@ -1,4 +1,4 @@
-package Areglos_bidemensionales;
+package Arreglos_bidemensionales;
 
 public class arreglos_bidimensionales {
 

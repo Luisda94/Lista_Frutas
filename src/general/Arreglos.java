@@ -10,6 +10,15 @@ public class Arreglos {
         // Creamos un "random", que es como una máquina de números sorpresa
         Random random = new Random();  
 
-     
+        // Este bucle va a llenar las 10 cajitas con números aleatorios
+        for (int i = 0; i < arreglo.length; i++) {
+            // En cada cajita (arreglo[i]), ponemos un número aleatorio entre 0 y 99
+            arreglo[i] = random.nextInt(100); 
+            
+            // Imprimimos el número que pusimos en la cajita para que se muestre en pantalla
+            System.out.println(arreglo[i]);  
+        }
+        
+        // Al final, habremos llenado las 10 cajitas y mostrado los números
     }
 }

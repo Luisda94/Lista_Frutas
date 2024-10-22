@@ -74,7 +74,7 @@ arreglo1 =new int[4];
 		//para recorrer el Array con foo-each:
 		
 		for (String elem : arregloCadena) {//aqui solo da el valor string es decir el nombre creo
-			System.out.println("Los elementos son : "+elem +arreglo1);}
+			System.out.println("El elemento es : "+elem);}
 		//usando el for por indece. 
 			for (int i=0; i < arreglo1.length; i++) {
 				System.out.println("El número en el índice es: "+arreglo1[i]);}

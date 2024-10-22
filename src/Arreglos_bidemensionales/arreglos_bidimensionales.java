@@ -32,11 +32,13 @@ public class arreglos_bidimensionales {
 			System.out.println(arregloBidimensional[I][F]);
 		}
 		// segunda forma : //2 filas 4 columnas datos llenos sin null o cero
-		int[][] numeros = {{1,5,9,6},
-							{8,6,15,7}};
+		int[][] numeros = {{1,5,9,6},//fila 0
+							{8,6,15,7}}; //fila1 
 		for (int i = 0; i < numeros.length; i++) {  // Recorre las filas
 		    for (int j = 0; j < numeros[i].length; j++) {  // Recorre las columnas
 		        System.out.println("Elemento en [" + i + "][" + j + "] es: " + numeros[i][j]);
+		
+		    
 		    }
 		}
 		

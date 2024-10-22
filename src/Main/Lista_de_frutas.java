@@ -93,8 +93,5 @@ arreglo1 =new int[4];
 			for (int i = 4; i < arregloCadena.length; i++) {
 				System.out.println("La fruta con el índice "+i+" es:" + arregloCadena[i] +"Se hizo el contador desde el penultimo numero para hacer el recorrido");
 				}
-
-	
-	
 	}
 }

@@ -12,12 +12,19 @@ public class Lista_de_frutas {
 arreglo1 =new int[4];
 */
 		/* esta es una forma de hacer el areglo.
-		int [] ListaFrutas;
-		//aca abajo ponemos el tamoño del areglo.
-		int[] ListaFrutas1 = new int [5]; //datozo se instancia declaron el tipo de areglo si es int, char y asi...
+		int[] arreglo;
+	arreglo = new int[6]; //datozo se instancia declaron el tipo de areglo si es int, char y asi...
 */
-		//segundo forma asignando los valores y el tamaño directo. 
+		/*segundo forma asignando los valores y el tamaño directo. 
 		int ListaFrutas2[]= {8,5,4,9};
-
+*/
+		//acaba abajo de forma explicita declaramos dos areglos uno int y otro String
+		//areglo int
+		int[] arreglo;
+		arreglo = new int[6];
+		//areglo string
+		String arregloCadena[];
+		arregloCadena = new String[6];
+		
 }
 }

@@ -52,7 +52,7 @@ arreglo1 =new int[4];
 		System.out.println(Arrays.toString(arregloCadena));
 
 		//para saber el tamaño del areglo se usa lo siguiente : length.
-		System.out.println(arreglo1.length);
+		System.out.println("el tamaña del areglo int es de : "arreglo1.length);
 		
 }
 }

@@ -57,7 +57,7 @@ arreglo1 =new int[4];
 		//cambiando la variable de un indice dentro del arregloCadena 
 		System.out.println(Arrays.toString(arregloCadena));
 		arregloCadena[0]="Platano-Cambur";
-		arregloCadena[6]="Patilla";
+		arregloCadena[5]="Patilla";
 		System.out.println(Arrays.toString(arregloCadena));
 
 	

@@ -47,19 +47,39 @@ arreglo1 =new int[4];
 		arregloCadena [4]="Melon";
 		arregloCadena [5]="Sandia";
 		//Arriba no mas guardamos los datos de los Arrays
-		
+		/*
 		System.out.println(Arrays.toString(arreglo1));
 		System.out.println(Arrays.toString(arregloCadena));
-
+		
+		 */	
 		//para saber el tamaño del arreglo se usa lo siguiente : length.
 		System.out.println("el tamaña del areglo int es de : "+ arreglo1.length);
 		System.out.println("Las frutas totales son : " + arregloCadena.length);
+		
 		//cambiando la variable de un indice dentro del arregloCadena 
 		System.out.println(Arrays.toString(arregloCadena));
 		arregloCadena[0]="Platano-Cambur";
 		arregloCadena[5]="Patilla";
 		System.out.println(Arrays.toString(arregloCadena));
-
+		
+		
+		/*con For (each)
+		 * for (IdTipo elem : IdArray) { …elem … } 
+		 * 
+		 * 
+		 * // con for
+				for (int i = 0; i < a.length; i++){ .a[i]…} // por índice
+*/
+		
+		//para recorrer el Array con foo-each:
+		
+		for (String elem : arregloCadena) {//aqui solo da el valor string es decir el nombre creo
+			System.out.println("Los elementos son : "+elem +arreglo1);}
+		//usando el for por indece. 
+			for (int i=0; i < arreglo1.length; i++) {
+				System.out.println("El número en el índice es: "+arreglo1[i]);}
+		
+		
 	
 	
 	}

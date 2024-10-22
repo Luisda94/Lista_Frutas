@@ -50,16 +50,22 @@ public class arreglos_bidimensionales {
                 {4, 5, 6},
                 {7, 8, 9}
             };
-            
+            System.out.println("hasta la fila 1");
+            System.out.println("");
             // Recorrer solo hasta la fila 1.
-            for (int i = 0; i <= matriz.length; i++) { // Cambia el límite superior para incluir solo hasta la fila 1
+            for (int i = 0; i <=1; i++) { // Cambia el límite superior para incluir solo hasta la fila 1
                 for (int j = 0; j < matriz[i].length; j++) {
                     System.out.print(matriz[i][j] + " ");
                 }
             }
-                
+            System.out.println();
+            System.out.println("Un nuevo recorrido sin saber la posicion de cada número");
+            System.out.println(); // Nueva línea después de cada fila
+            for(int [] fila : matriz) {
+            	for (int c: fila) {
+            		System.out.println(c+" ");
+            } 
+            } System.out.println();
 
-
-
-}
+	}
 }

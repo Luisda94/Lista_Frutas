@@ -59,10 +59,11 @@ public class arreglos_bidimensionales {
                 }
             }
             System.out.println();
-            System.out.println("Un nuevo recorrido sin saber la posicion de cada número");
+            System.out.println("Un nuevo recorrido con for-each");
             System.out.println(); // Nueva línea después de cada fila
             for(int [] fila : matriz) {
             	for (int c: fila) {
+            		// c=5; //eso me cambiara todo por el mismo valor 
             		System.out.println(c+" ");
             } 
             } System.out.println();

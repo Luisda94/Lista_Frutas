@@ -54,13 +54,13 @@ arreglo1 =new int[4];
 		 */	
 		//para saber el tamaño del arreglo se usa lo siguiente : length.
 		System.out.println("el tamaña del areglo int es de : "+ arreglo1.length);
-		System.out.println("Las frutas totales son : " + arregloCadena.length);
+		System.out.println("Las frutas totales son : " + arregloCadena.length + "Esto corresponde al arregloCadena (segundo arreglo");
 		
 		//cambiando la variable de un indice dentro del arregloCadena 
-		System.out.println(Arrays.toString(arregloCadena));
+		System.out.println(Arrays.toString(arregloCadena)+"Arreglo antes de modificar los indices");
 		arregloCadena[0]="Platano-Cambur";
 		arregloCadena[5]="Patilla";
-		System.out.println(Arrays.toString(arregloCadena));
+		System.out.println(Arrays.toString(arregloCadena)+"Arereglo con cambios en el primer y ultimo indice");
 		
 		
 		/*con For (each)
@@ -91,7 +91,7 @@ arreglo1 =new int[4];
 			//print de la relacion de ambos arreglos: 
 			//si colocamos 
 			for (int i = 4; i < arregloCadena.length; i++) {
-				System.out.println("La fruta con el índice "+i+" es:" + arregloCadena[i]);
+				System.out.println("La fruta con el índice "+i+" es:" + arregloCadena[i] +"Se hizo el contador desde el penultimo numero para hacer el recorrido");
 				}
 
 	

@@ -55,18 +55,17 @@ public class arreglos_bidimensionales {
             // Recorrer solo hasta la fila 1.
             for (int i = 0; i < matriz.length; i++) { // Cambia el límite superior para incluir solo hasta la fila 1
                 for (int j = 0; j < matriz[i].length; j++) {
-                    System.out.print("la fila "+ i + "y la columna" + j + "tiene "+matriz[i][j]);
-                }
+                    System.out.print(" la fila [" + i + "]  y la columna [" + j + "] tiene : " + matriz[i][j]+ "\n" );
+                }System.out.println();
             }
-            System.out.println();
+
             System.out.println("Un nuevo recorrido con for-each");
             System.out.println(); // Nueva línea después de cada fila
             for(int [] fila : matriz) {
             	for (int c: fila) {
             		// c=5; //eso me cambiara todo por el mismo valor 
-            		System.out.println(c+" ");
-            } 
-            } System.out.println();
+            		System.out.println("Aqui esta el valor :" + c);
+            }}
 
 	}
 }
